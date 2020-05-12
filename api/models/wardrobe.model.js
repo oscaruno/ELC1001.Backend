@@ -1,8 +1,9 @@
 const mongoose = require('mongoose');
+const validator = require('validator');
 
 const WardrobeSchema = new mongoose.Schema({
-    name: String,
-    description: String,
+    name: {type: String, required: true},
+    description: {type: String, required: true},
     owner: { type: mongoose.Schema.Types.ObjectId, ref: 'User' },
     garments: [ { type: mongoose.Schema.Types.ObjectId, ref: 'Garment' } ],
     image_url: {
