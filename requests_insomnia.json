@@ -1,0 +1,197 @@
+{
+	"_type": "export",
+	"__export_format": 4,
+	"__export_date": "2020-05-12T19:12:31.500Z",
+	"__export_source": "insomnia.desktop.app:v7.1.1",
+	"resources": [
+		{
+			"_id": "req_a2c07ec165fa461881cefd68ff312176",
+			"authentication": {},
+			"body": {},
+			"created": 1589310176163,
+			"description": "",
+			"headers": [
+				{
+					"description": "",
+					"id": "pair_ed80826680454bf39e649a0d7de561bb",
+					"name": "Authorization",
+					"value": "Bearer most.ardi.nha"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1589310176163,
+			"method": "GET",
+			"modified": 1589310233932,
+			"name": "Wardrobe",
+			"parameters": [],
+			"parentId": "wrk_da6eeb36aa544d638cb1eaba485f62d2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingFollowRedirects": "global",
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/v1/wardrobe/5ebad9fe767d652d96eb39a9",
+			"_type": "request"
+		},
+		{
+			"_id": "wrk_da6eeb36aa544d638cb1eaba485f62d2",
+			"created": 1589302911030,
+			"description": "",
+			"modified": 1589302950948,
+			"name": "ELC1001",
+			"parentId": null,
+			"_type": "workspace"
+		},
+		{
+			"_id": "req_2a03473e01f84541b8377965df02a062",
+			"authentication": {},
+			"body": {},
+			"created": 1589305982579,
+			"description": "",
+			"headers": [
+				{
+					"description": "",
+					"id": "pair_242ba384974348f382c10f77f60a7abc",
+					"name": "Authorization",
+					"value": "Bearer most.ardi.nha"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1589305982579,
+			"method": "POST",
+			"modified": 1589308650705,
+			"name": "Wardrobe Add Garment",
+			"parameters": [],
+			"parentId": "wrk_da6eeb36aa544d638cb1eaba485f62d2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingFollowRedirects": "global",
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/v1/wardrobe/5ebaece20ae78d64eee1a03d/add/5e9231f8f93bbb3ea0d69c87",
+			"_type": "request"
+		},
+		{
+			"_id": "req_5a13f59438604c5cb3f5f9a19cbde28b",
+			"authentication": {},
+			"body": {},
+			"created": 1589305617916,
+			"description": "",
+			"headers": [
+				{
+					"description": "",
+					"id": "pair_6e88176d864e46a487ee7fc3f5952931",
+					"name": "Authorization",
+					"value": "Bearer most.ardi.nha"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1589305617916,
+			"method": "GET",
+			"modified": 1589305655476,
+			"name": "Garment All",
+			"parameters": [],
+			"parentId": "wrk_da6eeb36aa544d638cb1eaba485f62d2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingFollowRedirects": "global",
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/v1/garment",
+			"_type": "request"
+		},
+		{
+			"_id": "req_1af6bae3c0214d4dbd6d72fe58705c77",
+			"authentication": {},
+			"body": {
+				"mimeType": "application/json",
+				"text": "{\n\t\"name\": \"Guarda Roupa 2\",\n\t\"description\": \"Guarda roupa teste 2\",\n\t\"image_url\": \"https://i.pinimg.com/originals/44/d2/9e/44d29e55907bda89c0e160a857254146.jpg\"\n}"
+			},
+			"created": 1589303535142,
+			"description": "",
+			"headers": [
+				{
+					"id": "pair_a24f3f7e45414b0ebb2a4bd25cd33c2c",
+					"name": "Content-Type",
+					"value": "application/json"
+				},
+				{
+					"description": "",
+					"id": "pair_e1750c22d8a34c029c227137e43d42e4",
+					"name": "Authorization",
+					"value": "Bearer most.ardi.nha"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1589303535142,
+			"method": "POST",
+			"modified": 1589308635220,
+			"name": "Wardrobe Create",
+			"parameters": [],
+			"parentId": "wrk_da6eeb36aa544d638cb1eaba485f62d2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingFollowRedirects": "global",
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/v1/wardrobe/create",
+			"_type": "request"
+		},
+		{
+			"_id": "req_a54c41746f914a9ebe6cffc11cc5783f",
+			"authentication": {},
+			"body": {},
+			"created": 1589302995081,
+			"description": "",
+			"headers": [
+				{
+					"description": "",
+					"id": "pair_4bf25276c0584457aae56b5eb9888a4d",
+					"name": "Authorization",
+					"value": "Bearer most.ardi.nha"
+				}
+			],
+			"isPrivate": false,
+			"metaSortKey": -1589302995081,
+			"method": "GET",
+			"modified": 1589303223798,
+			"name": "Wardrobe All",
+			"parameters": [],
+			"parentId": "wrk_da6eeb36aa544d638cb1eaba485f62d2",
+			"settingDisableRenderRequestBody": false,
+			"settingEncodeUrl": true,
+			"settingFollowRedirects": "global",
+			"settingRebuildPath": true,
+			"settingSendCookies": true,
+			"settingStoreCookies": true,
+			"url": "http://localhost:3000/api/v1/wardrobe",
+			"_type": "request"
+		},
+		{
+			"_id": "env_06eb1458bc2e9ae73613c30147cea319503e9de8",
+			"color": null,
+			"created": 1589302911065,
+			"data": {},
+			"dataPropertyOrder": {},
+			"isPrivate": false,
+			"metaSortKey": 1589302911065,
+			"modified": 1589310295185,
+			"name": "Base Environment",
+			"parentId": "wrk_da6eeb36aa544d638cb1eaba485f62d2",
+			"_type": "environment"
+		},
+		{
+			"_id": "jar_06eb1458bc2e9ae73613c30147cea319503e9de8",
+			"cookies": [],
+			"created": 1589302911068,
+			"modified": 1589302911068,
+			"name": "Default Jar",
+			"parentId": "wrk_da6eeb36aa544d638cb1eaba485f62d2",
+			"_type": "cookie_jar"
+		}
+	]
+}
